@@ -1,0 +1,56 @@
+.next/
+.cache/
+.turbo/
+out/
+dist/
+
+# Dependencias (siempre deben ignorarse)
+node_modules
+/node_modules
+
+# Archivos de caché de desarrollo
+/dev/
+
+# Archivos de diagnóstico
+/diagnostics/
+
+# Archivos de depuración (pueden ser grandes o sensibles)
+/trace-build/
+
+# Archivos de Turbopack/Turborepo
+.turbo/
+/turbopack/
+
+
+# ARCHIVOS DE ENTORNO Y SECRETO
+##################################
+
+# Archivos de entorno local (contienen claves sensibles)
+.env
+.env.local
+.env.*.local
+
+# Archivos de TypeScript y JavaScript (si se generan)
+*.js.map
+*.d.ts
+
+
+# OTROS ARCHIVOS DE SISTEMA
+##########################
+
+# Logs
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Archivos del editor (VS Code, si estás usando)
+.vscode/
+
+# Archivos de macOS
+.DS_Store
+
+# Archivos de VIM/Sublime/etc.
+*~
+#*#
